@@ -1,31 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML</title>  
+    <title>MY RESUME</title>
     <style>
-        body{
-            background-image: url(https://onaircode.com/wp-content/uploads/2017/11/Tesselation-Transition.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 150%;
+        body {
+            background-color: #f7f0ff;
+            font-family: Arial, sans-serif;
+            margin: 40px;
         }
-        div{
-         text-align:center;
-        
 
+        header {
+            text-align: center;
+            margin-bottom: 20px;
         }
-        
+
+        h1 {
+            color: #0d0515;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #0f0a15;
+        }
+
+        .info {
+            color: #777;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .education,
+        .experience {
+            margin-bottom: 20px;
+        }
+
+        .skills {
+            margin-bottom: 20px;
+        }
+
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills li {
+            background-color: #cdb7e2;
+            padding: 8px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            border-radius: 5px;
+        }
+
+        .profile-img {
+            max-width: 100px; /* Adjust the size as needed */
+            border-radius: 0%;
+            margin-right: 20px;
+            float:inline-end;
+        }
     </style>
-    
 </head>
+
 <body>
-    <div>
-      <h3>WWW PROJECT</h3><a href="http://127.0.0.1:5500/WWWproject.html"><img width="100" src="https://i.pinimg.com/564x/74/85/08/748508bc9cbf8f2cdb58ed6bdfe5028a.jpg" alt="WWWproject"></a> <br><br><br><br>
-    <h3>W3C PROJECT</h3><a href="http://127.0.0.1:5500/W3CHistory.html"><img width="100" src="https://www.w3.org/assets/logos/w3c/w3c-no-bars.svg" alt="W3C Project"></a> <br><br><br><br>
-    <h3>FORMS</h3><a href="http://127.0.0.1:5500/Forms.html"><img width="100" src="https://as2.ftcdn.net/v2/jpg/02/27/51/37/1000_F_227513711_ZNtjbK9B2KRAJQKbIN82uyk5MPWjAx4Z.jpg" alt="Forms"></a><br><br><br><br>
-    <h3>TABLES</h3><a href="http://127.0.0.1:5500/Maha/Table.html"><img width="100" src="https://www.freeiconspng.com/uploads/table-icon-21.png" alt="Time Table"></a>
-</div>
+    <header>
+        <h1>MY RESUME</h1>
+        
+    </header>
+
+    <section class="section">
+        <h2>Contact Information</h2>
+        <img src="https://i.pinimg.com/564x/65/a7/08/65a7085b5a295669af25a4ec1c9e015d.jpg
+        " alt="Profile Image" class="profile-img">
+        <ul>
+            <li>Name: Hermione Granger</li>
+            <li>Email: Hermione@gmail.com</li>
+            <li>Phone: 9876543201</li>
+            <li>LinkedIn: linkedin.com/in/Hermione</li>
+            <li>GitHub: github.com/Hermione</li>
+        </ul>
+    </section>
+<hr>
+    <section class="section education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>University Name</strong> - Bachelor of Science in Computer Science
+                <p class="info">Graduation Year: 20XX</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section experience">
+        <h2>Work Experience</h2>
+        <ul>
+            <li>
+                <strong>Company Name</strong> - Web Developer
+                <p class="info">Employment Period: 2020 - Present</p>
+                <p>Description of responsibilities and achievements in this role.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Git</li>
+        </ul>
+    </section>
 </body>
+
 </html>
+   
